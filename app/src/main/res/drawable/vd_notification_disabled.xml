@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="root"
+    android:width="240dp"
+    android:height="240dp"
+    android:alpha="0.3"
+    android:tint="?attr/colorControlNormal"
+    android:viewportHeight="240"
+    android:viewportWidth="240">
+    <clip-path
+        android:name="maskClipPath"
+        android:pathData="@string/disable_mask_clip_path" />
+    <path
+        android:name="crossPath"
+        android:pathData="@string/cross_path"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="20" />
+    <path
+        android:fillColor="#000"
+        android:pathData="@string/ic_notification_path"
+        android:strokeWidth="1" />
+</vector>

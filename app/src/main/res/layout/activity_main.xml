@@ -10,9 +10,18 @@
         android:id="@+id/image_expand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/avd_expand_more"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@null"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="8dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avd_expand_more" />
+
+    <ImageView
+        android:id="@+id/ic_notification"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/asl_notification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_expand" />
 </android.support.constraint.ConstraintLayout>

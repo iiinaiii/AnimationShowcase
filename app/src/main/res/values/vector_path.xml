@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- icon disable path -->
+    <string name="enable_mask_clip_path">
+        M 0 0 L 240 0 L 240 240 L 0 240 L 0 0 Z M 20.027 0.854 L 41.607 23.05 L 52.434 12.274 L 41.547 0.854 L 20.027 0.854 Z
+    </string>
+    <string name="disable_mask_clip_path">
+        M 0 0 L 240 0 L 240 240 L 0 240 L 0 0 Z M 20.027 0.854 L 210.03 196.362 L 219.286 187.211 L 41.547 0.854 L 20.027 0.854 Z
+    </string>
+    <string name="disable_cross_path">
+        M 39.901 47.514 L 197.384 210.162 L 210.321 196.863 L 52.634 34.86 Z
+    </string>
+    <string name="cross_path">
+        M46.1701454,41.4327542 L202.939622,203.496893
+    </string>
+    <!-- notification -->
+    <string name="ic_notification_path">
+        M 120 220 C 131 220 140 211 140 200 L 100 200 C 100 211 108.9 220 120 220 Z M 180 160 L 180 110 C 180 79.3 163.6 53.6 135 46.8 L 135 40 C 135 31.7 128.3 25 120 25 C 111.7 25 105 31.7 105 40 L 105 46.8 C 76.3 53.6 60 79.2 60 110 L 60 160 L 40 180 L 40 190 L 200 190 L 200 180 L 180 160 Z
+    </string>
+</resources>

@@ -10,6 +10,7 @@ import butterknife.OnClick
 class MainActivity : AppCompatActivity() {
 
     var isExpand = false;
+    var isNotificationEnable = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,5 +30,12 @@ class MainActivity : AppCompatActivity() {
             drawable.start()
         }
         isExpand = !isExpand
+    }
+
+    @OnClick(R.id.ic_notification)
+    fun onClickIcon(view: ImageView) {
+        isNotificationEnable = !isNotificationEnable
+        val stateSet = intArrayOf(android.R.attr.state_checked * if (isNotificationEnable) 1 else -1)
+        view.setImageState(stateSet, true)
     }
 }
